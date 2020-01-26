@@ -11,3 +11,13 @@
 |
 */
 Route::get('/','PageController@home');
+Route::get('/students','PageController@students');
+Route::get('/cycles','PageController@cycles');
+Route::get('/courses','PageController@courses');
+Route::get('/branches','PageController@branches');
+Route::get('/payments','PageController@payments');
+Route::get('/status','PageController@status');
+Route::get('/careers','PageController@careers');
+Route::get('/salesman','PageController@salesman');
+Route::get('/jobs','PageController@jobs');
+Route::get('/reports','PageController@reports');

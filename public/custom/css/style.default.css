@@ -9,7 +9,7 @@ Dark Admin Bootstrap Template by Bootstrapious.com
  */
 /*
 * ==========================================================
-*     GENERAL STYLING 
+*     GENERAL STYLING
 * ==========================================================
 */
 body {
@@ -187,7 +187,7 @@ pre {
 }
 
 .breadcrumb a {
-  color: #DB6574;
+  color: #ee6123 ;
   text-decoration: none !important;
 }
 
@@ -269,7 +269,7 @@ pre {
 }
 
 .dropdown-menu a:hover {
-  background: #DB6574;
+  background: #ee6123 ;
   color: #fff;
 }
 
@@ -344,7 +344,7 @@ i[class*='icon-'] {
 
 .megamenu ul a:hover {
   background: none;
-  color: #DB6574 !important;
+  color: #ee6123  !important;
 }
 
 .megamenu .megamenu-buttons {
@@ -824,7 +824,7 @@ nav#sidebar li a:hover {
 }
 
 nav#sidebar li a:hover i {
-  color: #DB6574;
+  color: #ee6123 ;
 }
 
 nav#sidebar li a i {
@@ -846,7 +846,7 @@ nav#sidebar li li a:hover {
 }
 
 nav#sidebar li li a:hover i {
-  color: #DB6574;
+  color: #ee6123 ;
 }
 
 nav#sidebar li::before {
@@ -862,7 +862,7 @@ nav#sidebar li::before {
 }
 
 nav#sidebar li.active::before {
-  background: #DB6574;
+  background: #ee6123 ;
 }
 
 nav#sidebar li.active > a {
@@ -871,7 +871,7 @@ nav#sidebar li.active > a {
 }
 
 nav#sidebar li.active i {
-  color: #DB6574;
+  color: #ee6123 ;
 }
 
 nav#sidebar li li.active > a {
@@ -1660,7 +1660,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 .login-page .form-holder .form a.forgot-pass,
 .login-page .form-holder .form a.signup {
   font-size: 0.9rem;
-  color: #DB6574;
+  color: #ee6123 ;
 }
 
 .login-page .form-holder .form small {
@@ -1710,7 +1710,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 
 /*
 * ==========================================================
-*     FORMS 
+*     FORMS
 * ==========================================================
 */
 .form-control {
@@ -1743,7 +1743,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 .form-control:focus {
   color: #979a9f;
   background-color: transparent;
-  border-color: #DB6574;
+  border-color: #ee6123 ;
   outline: none;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(219, 101, 116, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(219, 101, 116, 0.25);
@@ -1799,7 +1799,7 @@ input[type='submit'] {
 }
 
 .custom-select:focus {
-  border-color: #DB6574;
+  border-color: #ee6123 ;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1868,7 +1868,7 @@ input[type='submit'] {
 }
 
 .input-group .dropdown-menu a:hover {
-  color: #DB6574;
+  color: #ee6123 ;
   background: none !important;
 }
 
@@ -1932,7 +1932,7 @@ form label {
 
 .checkbox-template:checked::before,
 .radio-template:checked::before {
-  background: #DB6574;
+  background: #ee6123 ;
 }
 
 .checkbox-template:checked::after,
@@ -1976,7 +1976,7 @@ input.input-material.is-invalid {
 }
 
 input.input-material:focus {
-  border-color: #DB6574;
+  border-color: #ee6123 ;
 }
 
 input.input-material ~ label {
@@ -1993,7 +1993,7 @@ input.input-material ~ label {
 input.input-material ~ label.active {
   font-size: 0.85rem;
   top: -10px;
-  color: #DB6574;
+  color: #ee6123 ;
 }
 
 input.input-material ~ label.is-invalid ~ label {
@@ -2120,8 +2120,8 @@ STYLE SWITCHER FOR DEMO
   z-index: 2000;
 }
 
-/* ========================================= 
-   THEMING OF BOOTSTRAP COMPONENTS           
+/* =========================================
+   THEMING OF BOOTSTRAP COMPONENTS
    ========================================= */
 /*
  * 1. NAVBAR
@@ -2257,9 +2257,9 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-primary {
-  color: color-yiq(#DB6574);
-  background-color: #DB6574;
-  border-color: #DB6574;
+  color: color-yiq(#ee6123 );
+  background-color: #ee6123 ;
+  border-color: #ee6123 ;
 }
 
 .btn-primary:hover {
@@ -2274,9 +2274,9 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: color-yiq(#DB6574);
-  background-color: #DB6574;
-  border-color: #DB6574;
+  color: color-yiq(#ee6123 );
+  background-color: #ee6123 ;
+  border-color: #ee6123 ;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -2545,16 +2545,16 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-primary {
-  color: #DB6574;
+  color: #ee6123 ;
   background-color: transparent;
   background-image: none;
-  border-color: #DB6574;
+  border-color: #ee6123 ;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #DB6574;
-  border-color: #DB6574;
+  background-color: #ee6123 ;
+  border-color: #ee6123 ;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2563,15 +2563,15 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #DB6574;
+  color: #ee6123 ;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
-  color: color-yiq(#DB6574);
-  background-color: #DB6574;
-  border-color: #DB6574;
+  color: color-yiq(#ee6123 );
+  background-color: #ee6123 ;
+  border-color: #ee6123 ;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2847,7 +2847,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 /*
- * 3. TYPE  
+ * 3. TYPE
  */
 body {
   font-family: "Muli", sans-serif;
@@ -2859,7 +2859,7 @@ body {
 }
 
 a {
-  color: #DB6574;
+  color: #ee6123 ;
   text-decoration: none;
 }
 
@@ -2966,7 +2966,7 @@ mark,
   padding: 0.5rem 1rem;
   margin-bottom: 2rem;
   font-size: 1.25rem;
-  border-left: 5px solid #DB6574;
+  border-left: 5px solid #ee6123 ;
 }
 
 .blockquote-footer {
@@ -2978,7 +2978,7 @@ mark,
 }
 
 .text-primary {
-  color: #DB6574 !important;
+  color:#ee6123 !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
@@ -3000,8 +3000,8 @@ a.text-primary:focus, a.text-primary:hover {
 
 .page-item.active .page-link {
   color: #fff;
-  background-color: #DB6574;
-  border-color: #DB6574;
+  background-color: #ee6123 ;
+  border-color: #ee6123 ;
 }
 
 .page-item.disabled .page-link {
@@ -3070,7 +3070,7 @@ a.text-primary:focus, a.text-primary:hover {
 * 5. UTILITIES
 */
 .bg-primary {
-  background-color: #DB6574 !important;
+  background-color: #ee6123  !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
@@ -3134,7 +3134,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .border-primary {
-  border-color: #DB6574 !important;
+  border-color: #ee6123  !important;
 }
 
 .border-secondary {
@@ -3166,7 +3166,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-primary {
-  color: #DB6574 !important;
+  color: #ee6123  !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
@@ -3230,12 +3230,12 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .badge-primary {
-  color: color-yiq(#DB6574);
-  background-color: #DB6574;
+  color: color-yiq(#ee6123 );
+  background-color: #ee6123 ;
 }
 
 .badge-primary[href]:focus, .badge-primary[href]:hover {
-  color: color-yiq(#DB6574);
+  color: color-yiq(#ee6123 );
   text-decoration: none;
   background-color: #d13c4f;
 }
@@ -3323,7 +3323,7 @@ a.text-dark:focus, a.text-dark:hover {
 code {
   padding: 0.2rem 0.4rem;
   font-size: 90%;
-  color: #DB6574;
+  color: #ee6123 ;
   background-color: #22252a;
   border-radius: 0.25rem;
 }
@@ -3385,7 +3385,7 @@ pre code {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #DB6574;
+  background-color: #ee6123 ;
 }
 
 /*
