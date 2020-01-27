@@ -32,12 +32,24 @@
     <div class="d-flex align-items-stretch">
     @include('inc.sidebar')
     <div class="page-content">
-        <div class="page-header">
+        <div class="page-header no-margin-bottom">
         <div class="container-fluid">
             <h2 class="h5 no-margin-bottom">@yield('pageName')</h2>
         </div>
         </div>
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+              <li class="breadcrumb-item active">@yield('pageName')</li>
+            </ul>
+          </div>
+          <section class="no-padding-top">
+            <div class="container-fluid">
+              <div class="row">
     @yield('content')
+              </div>
+            </div>
+          </section>
     </div>
     </div>
 
