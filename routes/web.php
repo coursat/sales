@@ -20,4 +20,4 @@ Route::get('/status','PageController@status');
 Route::get('/careers','PageController@careers');
 Route::get('/salesman','PageController@salesman');
 Route::get('/jobs','PageController@jobs');
-Route::get('/reports','PageController@reports');
+Route::get('/reports','PageController@reports'); 
