@@ -3,7 +3,13 @@
 @section('content')
 <div class="col-lg-12">
     <div class="block">
-        <div class="title"><strong>List Of Cycles</strong></div>
+        <div class="title"><strong>List Of Cycles</strong>
+        <div class="form-group pull-right">
+                    <button class="btn btn-primary">
+                        <i class="fa fa-plus"></i>  Add Cycle
+                    </button>
+                  </div>
+        </div>
         <div class="table-responsive">
           <table class="table table-striped table-sm">
             <thead>

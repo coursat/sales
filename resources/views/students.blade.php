@@ -7,7 +7,7 @@
             <div class="title"><strong>List Of Students</strong>
                 <div class="form-group pull-right">
                     <button class="btn btn-primary">
-                        <i class="fa fa-plus"></i>  Add Cycle
+                        <i class="fa fa-plus"></i>  Add Student
                     </button>
                   </div>
             </div>
